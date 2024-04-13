@@ -1,3 +1,4 @@
+
 -- 1 query para mostrar los prductos mas caros de cada marca
 SELECT m.title as Manufacturer, max(a.price) as MaxPrice, max(a.title) as Categories
 FROM articles AS a
